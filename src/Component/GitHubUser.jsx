@@ -30,6 +30,7 @@ function GitHubUser() {
      bg-cover bg-center bg-no-repeat 
      bg-[url("https://images.pexels.com/photos/2457284/pexels-photo-2457284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")]'>
       
+      
       <h1 className="relative top-12 text-3xl text-white
        font-bold font-serif border-b-4 border-black">
         GitHub User Finder
@@ -111,8 +112,13 @@ function GitHubUser() {
               </div>
             )}
           </div>
+
+          <footer className=" absolute bottom-52 right-10 text-black text-xl
+                              lg:hidden block"><p>This Web-app is built by &copy; Satyam Bheel</p></footer>
         </div>
       </div>
+
+      <footer className=" absolute bottom-10 right-10 text-white text-xl lg:block hidden"><p>This Web-app is built by &copy; Satyam Bheel</p></footer>
     </div>
   );
 }
