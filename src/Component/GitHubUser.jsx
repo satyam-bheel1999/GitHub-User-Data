@@ -113,7 +113,7 @@ function GitHubUser() {
             )}
           </div>
 
-          <footer className=" absolute bottom-52 right-10 text-black text-xl
+          <footer className=" absolute bottom-52 right-0 text-black text-xl
                               lg:hidden block"><p>This Web-app is built by &copy; Satyam Bheel</p></footer>
         </div>
       </div>
